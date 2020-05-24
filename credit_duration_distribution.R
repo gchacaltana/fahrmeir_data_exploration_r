@@ -16,6 +16,7 @@ str(credit)
 summary(credit)
 
 # Analizando la variable "Mes": Duración del Préstamo
+# Tipo de variable: Cuantitativa
 
 # Resumen de la variable
 # Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
@@ -40,13 +41,20 @@ creditDurationTable
 
 # Visualizando distribución de la variable "Mes"
 
-# Gráfico de Barras
-barplot(
+# Gráfico de Varas
+plot(
   pi,
-  col='black',
+  type="h",
+  lwd=2,
   main="Distribución de la duración de los préstamos",
   xlab="Meses de Préstamo",
-  ylab="Proporción Porcentual")
+  ylab="Porcentaje de préstamos")
+
+points(
+  x=as.numeric(rows.names(pi)),
+  y=as.numeric(pi),
+  pch=19,
+  cex=1.5)
 
 # Histograma completo
 h <- hist(
