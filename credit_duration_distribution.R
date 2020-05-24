@@ -23,16 +23,20 @@ summary(credit)
 summary(credit$Mes)
 
 # Obtenimieno la frecuencia absoluta
-ni<-table(credit$Mes)
+ni <- table(credit$Mes)
 ni
 
 # Obteniendo la frecuencia relativa
-fi<-prop.table(table(credit$Mes))
+fi <- prop.table(table(credit$Mes))
 fi
 
 # Obteniendo la frecuencua porcentual
-pi<-fi*100
+pi <- fi*100
 pi
+
+# Mostrando tabla de frecuencias
+creditDurationTable <- t(rbind(ni,fi,pi))
+creditDurationTable
 
 # Visualizando distribución de la variable "Mes"
 
