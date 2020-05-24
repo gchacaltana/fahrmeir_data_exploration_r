@@ -34,3 +34,7 @@ Exploración de datos de una base de datos de créditos bancarios de la librerí
 ## Distribución de la duración de préstamos
 
 ![grafico_distribucion_duracion_prestamo](http://www.solocodigoweb.com/wp-content/uploads/2020/05/grafico_varas_meses_prestamo.jpg)
+
+## Distribución del monto de préstamos
+
+![grafico_distribucion_monto_prestamo](http://www.solocodigoweb.com/wp-content/uploads/2020/05/grafico_densidad_monto_prestamo.jpg)
