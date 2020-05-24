@@ -16,7 +16,7 @@ str(credit)
 summary(credit)
 
 # Analizando la variable "Mes": Duración del Préstamo
-# Tipo de variable: Cuantitativa
+# Tipo de variable: cuantitativa discreta
 
 # Resumen de la variable
 # Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 

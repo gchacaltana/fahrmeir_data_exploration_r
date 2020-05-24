@@ -6,6 +6,7 @@ Exploración de datos de una base de datos de créditos bancarios de la librerí
 
 	install.packages("Fahrmeir")
 	install.packages("ggplot2")
+	install.packages("agricolae")
 
 ## Fuente de datos
 	
