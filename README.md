@@ -22,3 +22,7 @@ Exploración de datos de una base de datos de créditos bancarios de la librerí
 	DM: Monto del préstamo (en marcos alemanes).
 	Sexo: Sexo del cliente (0 = Mujer, 1 = Hombre).
 	Estc: Estado civil del cliente (0 = No vive solo, 1 = Vive solo).
+
+## Distribución de la duración de préstamos
+
+![grafico_distribucion_duracion_prestamo](http://www.solocodigoweb.com/wp-content/uploads/2020/05/distribucion_duracion_prestamos.jpg)
