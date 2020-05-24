@@ -110,3 +110,22 @@ library(agricolae)
 # 35 17000 17500 17250         0        0.0  999  99.9
 # 36 17500 18000 17750         0        0.0  999  99.9
 # 37 18000 18500 18250         1        0.1 1000 100.0
+
+# Visualizando distribución de frecuencia
+
+# Histograma y polígono de frecuencia
+
+h <- hist(
+  credit$DM, 
+  breaks = "sturges",
+  main = "Distribución del monto de préstamos",
+  xlab = "Monto de prestamo",
+  ylab = "Número de créditos")
+
+polygon.freq(h,frequency = 1,col = "red")
+
+# Gráfico de densidad
+plot(
+  density(credit$DM),
+  main = "Distribución del monto de préstamos",
+  ylab = "Densidad")
