@@ -38,3 +38,32 @@ barplot(
   main="Distribución de la duración de los préstamos",
   xlab="Meses de Préstamo",
   ylab="Proporción Porcentual")
+
+# Histograma completo
+h <- hist(
+  credit$Mes,
+  col="cornflowerblue",
+  main="Distribución de la duración de los préstamos",
+  xlab="Meses de Préstamo",
+  ylab="Cantidad",
+  # xlim=c(1,100)
+  breaks = "Sturges"
+)
+
+text(h$mids,h$counts,labels=h$counts)
+
+polygon.freq(
+  h,
+  frequency=1,
+  col='red')
+
+# Histograma: Prestamos de 0 a 40 meses
+h <- hist(
+  credit$Mes,
+  col="cornflowerblue",
+  main="Distribución de la duración de los préstamos",
+  xlab="Meses de Préstamo",
+  ylab="Cantidad",
+  xlim=c(1,40),
+  breaks = "Sturges"
+)
