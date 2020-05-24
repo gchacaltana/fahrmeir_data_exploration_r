@@ -17,6 +17,11 @@ summary(credit)
 
 # Analizando la variable "Mes": Duración del Préstamo
 
+# Resumen de la variable
+# Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+# 4.0    12.0    18.0    20.9    24.0    72.0 
+summary(credit$Mes)
+
 # Obtenimieno la frecuencia absoluta
 ni<-table(credit$Mes)
 ni
