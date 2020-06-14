@@ -13,6 +13,11 @@ Exploración de datos de una base de datos de créditos bancarios de la librerí
 	library(Fahrmeir)
 	data(credit)
 	
+## Descripción
+
+	El dataframe de créditos tiene 1000 filas y 8 columnas. Estos son datos para 1000 clientes de un banco del sur de Alemania, 700 buenos pagadores y 300 malos pagadores. 
+	Se utilizan para construir un método de calificación crediticia.
+
 ## Atributos
 
 > **Y**: Estado crediticio del cliente (0 = Cliente es solvente, 1 = Cliente no es solvente).
